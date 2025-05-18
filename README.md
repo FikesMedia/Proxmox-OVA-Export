@@ -27,7 +27,7 @@ This Bash script facilitates the export of a Proxmox VE Virtual Machine (VM) to 
         * Install if missing: `apt update && apt install qemu-utils`
     * `tar`: The GNU tar archiving utility (standard).
     * `sha256sum`: For generating checksums (standard, part of `coreutils`).
-    * `uuidgen`: For generating unique IDs (standard, part of `util-linux`).
+    * `uuidgen`: For generating unique IDs (standard, part of `uuid-runtime`).
     * `bc`: Basic command-line calculator (standard).
     * `stat`: Display file or file system status (standard, part of `coreutils`).
 4.  **Sufficient Disk Space:**
