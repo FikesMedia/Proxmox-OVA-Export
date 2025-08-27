@@ -148,7 +148,7 @@ resolve_disk_path_and_format() {
             fi
             ;;
         rbd)
-            actual_path="rbd:${volume_name}"
+            actual_path="rbd:${pool}/${volume_name}"
             source_disk_format="rbd"
             ;;
         *)
