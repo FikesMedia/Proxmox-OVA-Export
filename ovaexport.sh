@@ -6,7 +6,7 @@
 
 
 # --- Configuration & Globals ---
-DEFAULT_OVF_OS_MAP=(
+declare -A DEFAULT_OVF_OS_MAP=(
     ["l24"]="other24xLinux64Guest" # Linux 2.4x Kernel (64-bit)
     ["l26"]="otherLinux64Guest"    # Linux 2.6x/3.x/4.x/5.x Kernel (64-bit) (generic)
     ["wxp"]="winXPPro64Guest"
